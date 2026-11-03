@@ -4,62 +4,81 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="robots" content="noindex, nofollow">
-<title>Quick Grill in Tuscaloosa, Alabama</title>
-<meta name="description" content="Quick Grill, Tuscaloosa AL. Call (205) 342-0022.">
+<title>Quick Grill, 1208 University Blvd, Tuscaloosa</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Bitter:wght@400;600&family=Rubik:wght@800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,800..900&family=Newsreader:opsz,wght@6..72,400;6..72,600&display=swap" rel="stylesheet">
 <style>
-:root{--paper:#f6efe3;--ink:#1f1a17;--ember:#b3340f;--coal:#231c18;--glow:#ffd9a3}
-*{box-sizing:border-box;margin:0}
-body{background:var(--paper);color:var(--ink);font:400 1.125rem/1.6 Bitter,Georgia,serif}
+:root{--char:#1d1a17;--ember:#b83a14;--cream:#f5ecda;--mustard:#f0b93c;--ink:#2a241f}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:"Newsreader",Georgia,serif;font-size:1.2rem;line-height:1.55;color:var(--ink);background:var(--cream)}
 a{color:inherit}
-.bar{background:#fff3b0;color:#1f1a17;font:600 .9rem/1.4 Bitter,Georgia,serif;padding:.6rem 1rem;text-align:center;border-bottom:1px solid #1f1a17}
-.hero{display:grid}
-.hero-text{padding:3rem 1.25rem 2.5rem}
-h1{font:800 clamp(2.6rem,9vw,4.5rem)/1 Rubik,Impact,sans-serif;text-transform:uppercase;letter-spacing:-.01em}
-.town{font-size:1.5rem;font-weight:600;margin-top:1rem;color:var(--ember)}
-.hero-text p.lead{margin-top:1.25rem;max-width:30ch;font-size:1.25rem}
-.call{background:var(--ember);color:#fff;padding:2.5rem 1.25rem;display:block;text-decoration:none}
-.call small{display:block;font-size:1.1rem;color:var(--glow);font-weight:600}
-.call strong{display:block;font:800 clamp(2.4rem,11vw,5rem)/1.05 Rubik,Impact,sans-serif;margin-top:.5rem;letter-spacing:-.01em}
-.call:hover strong,.call:focus-visible strong{text-decoration:underline;text-underline-offset:.15em}
-.find{padding:3rem 1.25rem;max-width:44rem}
-h2{font:800 1.75rem/1.15 Rubik,Impact,sans-serif;text-transform:uppercase}
-.find p{margin-top:1rem}
-.find a{color:var(--ember);font-weight:600}
-footer{background:var(--coal);color:#f6efe3;padding:1.75rem 1.25rem;font-size:1.05rem}
-footer a{color:var(--glow)}
+:focus-visible{outline:3px solid var(--mustard);outline-offset:3px}
+.bar{background:#000;color:#fff;text-align:center;font:600 .9rem/1.4 Georgia,serif;padding:.6rem 1rem}
+h1,h2,.big{font-family:"Archivo",Arial Narrow,sans-serif;font-stretch:75%;font-weight:900;text-transform:uppercase;line-height:.92;letter-spacing:-.01em}
+.hero{display:grid;grid-template-columns:1fr}
+.hero-l{padding:3rem 1.4rem 2.5rem}
+h1{font-size:clamp(3.6rem,17vw,6rem);color:var(--char)}
+h1 span{color:var(--ember);display:block}
+.lede{margin-top:1.5rem;max-width:26rem;font-size:1.3rem}
+.actions{margin-top:2rem;display:flex;flex-wrap:wrap;gap:.9rem 1.6rem;align-items:center}
+.btn{display:inline-block;background:var(--ember);color:#fff;text-decoration:none;font:800 1.15rem/1 "Archivo",Arial,sans-serif;letter-spacing:.02em;padding:1.1rem 1.6rem;border-radius:2px}
+.btn:hover{background:#8f2c0e}
+.txt{font-weight:600;font-size:1.15rem}
+.hero-r{background:var(--char);color:var(--cream);padding:2.6rem 1.4rem;display:flex;flex-direction:column;justify-content:center}
+.hero-r p{font-size:1.25rem;max-width:22rem}
+.hero-r .big{display:block;color:var(--mustard);font-size:clamp(2.6rem,12.5vw,4.4rem);margin-top:.9rem;text-decoration:none;white-space:nowrap}
+.visit{padding:3.5rem 1.4rem 4rem;border-top:6px solid var(--char)}
+.visit h2{font-size:clamp(1.6rem,6vw,2.2rem);color:var(--ember);margin-bottom:1.2rem}
+.addr{font-family:"Archivo",Arial,sans-serif;font-stretch:80%;font-weight:800;font-size:clamp(2.6rem,11vw,5.5rem);line-height:1;color:var(--char)}
+.addr small{display:block;font-size:.5em;margin-top:.5rem;color:var(--ink)}
+.visit p{margin-top:1.6rem;max-width:30rem}
+.visit .links{margin-top:1.6rem;display:flex;flex-wrap:wrap;gap:1rem 2rem;font-weight:600;font-size:1.15rem}
+.visit .links a{padding:.3rem 0}
+footer{background:var(--char);color:var(--cream);padding:1.6rem 1.4rem;font-size:.95rem}
+footer b{font-family:"Archivo",Arial,sans-serif;text-transform:uppercase;letter-spacing:.04em}
 @media(min-width:900px){
-.hero{grid-template-columns:1.1fr 1fr;min-height:34rem}
-.hero-text{padding:6rem 4rem 4rem 6vw;align-self:center}
-.call{display:flex;flex-direction:column;justify-content:center;padding:4rem 5vw}
-.find{padding:5rem 6vw;margin:0}
-footer{padding:2rem 6vw}
+ .hero{grid-template-columns:1.25fr 1fr;min-height:70vh}
+ .hero-l{padding:6rem 4rem 5rem 6vw;display:flex;flex-direction:column;justify-content:center}
+ .hero-r{padding:5rem 4vw}
+ .hero-r .big{font-size:clamp(2.6rem,4.2vw,4.4rem)}
+ .visit{padding:6rem 6vw 6.5rem;display:grid;grid-template-columns:1fr 2.4fr;gap:3rem}
+ .visit h2{margin:.5rem 0 0}
+ footer{padding:1.6rem 6vw}
 }
 </style>
 </head>
 <body>
 <div class="bar">Concept preview made by Purcell Ventures for Quick Grill. Not the official site.</div>
-<header class="hero">
-<div class="hero-text">
-<h1>Quick Grill</h1>
-<p class="town">Tuscaloosa, Alabama</p>
-<p class="lead">A grill in Tuscaloosa. Pick up the phone and talk to the people who run it.</p>
-</div>
-<a class="call" href="tel:+12053420022">
-<small>Call Quick Grill</small>
-<strong>(205) 342-0022</strong>
-</a>
-</header>
 <main>
-<section class="find">
-<h2>Find us in Tuscaloosa</h2>
-<p>Quick Grill is listed with Visit Tuscaloosa, the city's visitor guide. See the <a href="https://visittuscaloosa.com/listing/quick-grill/">Quick Grill listing</a> for more.</p>
+<section class="hero">
+ <div class="hero-l">
+  <h1>Hot off the grill <span>on University Blvd</span></h1>
+  <p class="lede">Quick Grill is a Tuscaloosa grill. Call to hear what is on the menu and when the doors are open today.</p>
+  <div class="actions">
+   <a class="btn" href="tel:+12053420022">Call the grill</a>
+   <a class="txt" href="#visit">Find the door</a>
+  </div>
+ </div>
+ <div class="hero-r">
+  <p>Questions about the menu or today's hours? Ask us directly.</p>
+  <a class="big" href="tel:+12053420022" aria-label="Phone (205) 342-0022">(205) 342-0022</a>
+ </div>
+</section>
+
+<section class="visit" id="visit">
+ <h2>Where to find us</h2>
+ <div>
+  <div class="addr">1208 University Blvd<small>Tuscaloosa, Alabama</small></div>
+  <p>Look for us on University Boulevard in Tuscaloosa. Map directions open in your own maps app.</p>
+  <div class="links">
+   <a href="https://www.google.com/maps/dir/?api=1&destination=1208+University+Blvd+Tuscaloosa+AL">Get directions</a>
+   <a href="https://www.openstreetmap.org/node/11124159299">View on OpenStreetMap</a>
+  </div>
+ </div>
 </section>
 </main>
-<footer>
-Quick Grill, Tuscaloosa AL. Listed on <a href="https://visittuscaloosa.com/listing/quick-grill/">Visit Tuscaloosa</a>.
-</footer>
+<footer><b>Quick Grill</b> &middot; Tuscaloosa, Alabama</footer>
 </body>
 </html>
